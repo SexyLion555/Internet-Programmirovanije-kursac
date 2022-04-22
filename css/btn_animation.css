@@ -1,0 +1,31 @@
+.btn_shop:hover {
+    color: gold;
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    animation-name: out;
+    transition: 0.5s;
+}
+
+.btn_news:hover {
+    color: gold;
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    animation-name: out;
+    transition: 0.5s;
+}
+
+.btnmes_text:hover {
+    color: gold;
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    animation-name: out;
+    transition: 0.5s;
+}
+
+.btnback:hover {
+    color: gold;
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    animation-name: out;
+    transition: 0.5s;
+}
