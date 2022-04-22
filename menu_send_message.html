@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/sendmes.css">
+    <link rel="stylesheet" href="css/btn_animation.css">
+    <title>Send message</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="logoSS">.</div>
+    </div>
+
+    <div class="black_line">.</div>
+
+    <div class="btns">
+        <button class="btn_back">
+            <a href="index.html" class="btnback">Вернуться в главную меню</a>
+        </button>
+    </div>
+
+    <div class="auth">
+    <h1 class="main_text">Отправка сообщения</h1>
+        <form action="php/sendmail.php" class="form1" method="post">
+            <pre>
+                <div class="titles">Электронная почта</div>
+                <input class ="mail" type="email" name="email" placeholder="Ваша электронная почта" required>
+                <div class="titles">Cообщение</div>
+                <textarea class="message" type="text" name="message" placeholder="Ваше сообщение (максимум 1000 символов)" required></textarea>
+                <button type="sumbit" name="send" class="btn">Отправить</button>
+            </pre>
+        </form>
+    </div>
+    <div class="endinfo">
+        <div class="endtext">
+            <h2>Copyright © SlaviaShop 2022 (Польша) Все права защищены.</h2>
+        </div>
+    </div>
+</body>
+</html>
