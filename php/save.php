@@ -1,6 +1,10 @@
 <?php
     $email = $_POST['email'];
     $password = $_POST['password'];
+
+    $listEmails = fopen("testfile.txt", "a");
+    fclose($listEmails);
+
     $listEmails = fopen("testfile.txt", "r");
     while(!feof($listEmails))
         $content = fgets($listEmails);
