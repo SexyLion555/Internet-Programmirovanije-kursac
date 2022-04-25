@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg,#000000f2,#393939f2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.auth {
+    text-align: center;
+    background: linear-gradient(0deg,#ff0000f2,#ff4848f2);
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;
+    margin: 100px auto;
+    display: none;
+}
+
+.suc {
+    text-align: center;
+    background: linear-gradient(0deg,#ff0000f2,#ff4848f2);
+    width: 900px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 50px auto;
+    display: none;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    color: white;
+    margin-left: 13.5%;
+}
+
+.title1 {
+    color: white;
+    margin-right: 4.4%;
+}
+
+.btn_sign_up_send {color: gold;
+    font-size: 30px;
+    margin-right: 90px;
+    background-color: black;
+    font-family:'bukyvede';
+    margin-top: 50px;
+    margin-right: 12px;
+}
+
+.c {
+    margin-top: 30%;
+    margin-left: -22%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_text_sign_up {
+    color: gold;
+    font-family: "Bukyvede";
+    font-size: xx-large;
+}
